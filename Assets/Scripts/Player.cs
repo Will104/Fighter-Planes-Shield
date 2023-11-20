@@ -71,6 +71,7 @@ public class Player : MonoBehaviour
         if (shieldactive == true)
         {
             shieldactive = false;
+            shield.SetActive(false);
             return;
         }
 
@@ -158,7 +159,7 @@ public class Player : MonoBehaviour
 
     IEnumerator ShieldPowerDown()
     {
-        yield return new WaitForSeconds(4f);
+        yield return new WaitForSeconds(6f);
         AudioSource.PlayClipAtPoint(powerdownSound, transform.position);
         shieldactive = false;
         shield.SetActive(false);

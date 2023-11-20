@@ -113,6 +113,7 @@ MonoBehaviour:
   powerdownSound: {fileID: 8300000, guid: 12450cdef6058fc4e9dad5d52e57775e, type: 3}
   thruster: {fileID: 4449198940694488756}
   shield: {fileID: 5260687939555252533}
+  shieldactive: 0
 --- !u!50 &5271218934597634852
 Rigidbody2D:
   serializedVersion: 4
@@ -425,7 +426,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 76bcccb9f9469884a9685403da822054, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
